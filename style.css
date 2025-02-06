@@ -1,8 +1,8 @@
 /* Общие стили */
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f8f8f8;
-  text-align: center;
+  font-family: Arial, sans-serif;
+  background: url('picture/cafe-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
   margin: 0;
   padding: 0;
 }
@@ -17,6 +17,7 @@ header {
   background-color: #8b5e3b;
   color: white;
   padding: 20px 0;
+  text-align: center;
 }
 
 header h1 {
@@ -45,6 +46,7 @@ nav ul li a {
   background: url('picture/cafe-bg.jpg') center/cover no-repeat;
   color: white;
   padding: 100px 0;
+  text-align: center;
 }
 
 .hero-content {
@@ -97,17 +99,14 @@ nav ul li a {
   border-radius: 10px;
 }
 
-/* О нас */
-#about {
+/* О нас и Контакты */
+#about, #contact {
   background-color: #fff4e6;
   padding: 50px 0;
+  text-align: center;
 }
 
-/* Контакты */
-#contact {
-  padding: 50px 0;
-}
-
+/* Контактная форма */
 form {
   display: flex;
   flex-direction: column;
@@ -139,6 +138,7 @@ button:hover {
 footer {
   background-color: #333;
   color: white;
+  text-align: center;
   padding: 10px 0;
   margin-top: 20px;
 }
